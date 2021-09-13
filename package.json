@@ -1,0 +1,67 @@
+{
+  "name": "code-test-reporting",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.0",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@testing-library/dom": ">=7.21.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "dinero.js": "^1.9.0",
+    "i18next": ">=19.0.0",
+    "prop-types": "^15.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.11.4",
+    "react-scripts": "4.0.3",
+    "recharts": "^2.0.10",
+    "sass": "^1.39.2",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": true,
+    "bracketSpacing": false,
+    "jsxBracketSameLine": false
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/dinero.js": "^1.8.1",
+    "eslint-config-prettier": "~8.2.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "prettier": "2.2.1"
+  }
+}
